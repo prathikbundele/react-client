@@ -33,6 +33,9 @@ class App extends React.Component {
      return (
         <div className="App"> 
            <Counter />
+           <Greet name="prateek" hero="hero1">
+            <div>div1</div>
+           </Greet>
         </div>
      );
   }
