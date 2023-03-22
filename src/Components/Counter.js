@@ -10,14 +10,14 @@ class Counter extends Component{
     }
     increment(){
         this.setState({
-            count : this.state.count + 1
+            count : this.state.count + 2
         })
     }
     
     render(){
         return(
             <div>
-                count incremented by 1  : {this.state.count}
+                count incremented by 2  : {this.state.count}
                 <button onClick={() => this.increment()}>add</button>
             </div>
         )
